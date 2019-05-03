@@ -10,7 +10,12 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = redisbrowser
 TEMPLATE = app
-CONFIG += C++14
+CONFIG += C++17
+MOC_DIR = moc
+OBJECTS_DIR = obj
+UI_DIR = ui
+RCC_DIR = rcc
+DESTDIR = out
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which has been marked as deprecated (the exact warnings
